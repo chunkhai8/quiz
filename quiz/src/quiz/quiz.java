@@ -19,7 +19,7 @@ public class quiz {
 		int feet = in.nextInt();
 		System.out.print("Input female height in inch: ");
 		int inch = in.nextInt();
-		System.out.println("The ideal weight for a female is " + (40 + ((feet-5)*12*6) + (inch*5)) + "kg");
+		System.out.println("The ideal weight for a female is " + (40 + ((feet-5)*12*5) + (inch*5)) + "kg");
 		
 	}
 	
